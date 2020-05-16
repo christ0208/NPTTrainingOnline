@@ -73,7 +73,7 @@
     </button>
     <div class="form-group">
         <?php
-        if(isset($_GET['url']) && strpos($_GET['url'], "http://$host") !== false) {
+        if(isset($_GET['url']) && strpos($_GET['url'], "http://$host/") !== false) {
             ?>
             Not Registered as Member? <a href="register.php?url=<?= $_GET['url'];?>">Click Here</a>
             <?php
