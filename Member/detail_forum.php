@@ -36,7 +36,7 @@
                     if($currentDetailForum['file_path'] !== '') {
                         ?>
                         <div class="bg-light p-2">
-                            <a href="download_file.php?path=<?= $currentDetailForum['file_path'];?>"><?= str_replace("uploads/", "", $currentDetailForum['file_path']);?></a>
+                            <a href="download_file.php?path=<?= "http://${_SERVER['HTTP_HOST']}/${currentDetailForum['file_path']}";?>"><?= str_replace("uploads/", "", $currentDetailForum['file_path']);?></a>
                         </div>
                         <?php
                     }
