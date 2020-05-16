@@ -1,5 +1,5 @@
 <?php
-    $path = $_GET['path'];
+    $path = "http://${_SERVER['HTTP_HOST']}/${_GET['path']}";
     if(file_exists($path)) {
         $filename = basename($path);
 
