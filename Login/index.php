@@ -22,7 +22,7 @@
         } else if($rows->num_rows) {
             $currentRow = $rows->fetch_assoc();
 
-            if(isset($_GET['url']) && strpos($_GET['url'], "http://$host:82") !== false) {
+            if(isset($_GET['url']) && strpos($_GET['url'], "http://$host:47021") !== false) {
                 $adminQuery = "SELECT * FROM admins WHERE user_id=${currentRow['id']}";
                 $adminRows = $conn->query($adminQuery);
 
@@ -73,7 +73,7 @@
     </button>
     <div class="form-group">
         <?php
-        if(isset($_GET['url']) && strpos($_GET['url'], "http://$host:81") !== false) {
+        if(isset($_GET['url']) && strpos($_GET['url'], "http://$host") !== false) {
             ?>
             Not Registered as Member? <a href="register.php?url=<?= $_GET['url'];?>">Click Here</a>
             <?php

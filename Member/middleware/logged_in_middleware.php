@@ -7,4 +7,4 @@ else
     $host = $_SERVER['HTTP_HOST'];
 
 if(!isset($_SESSION['name']) || $_SESSION['name'] === '')
-    header("Location: http://$host/?url=http://${_SERVER['HTTP_HOST']}${_SERVER['REQUEST_URI']}");
+    header("Location: http://$host:8155/?url=http://${_SERVER['HTTP_HOST']}${_SERVER['REQUEST_URI']}");
