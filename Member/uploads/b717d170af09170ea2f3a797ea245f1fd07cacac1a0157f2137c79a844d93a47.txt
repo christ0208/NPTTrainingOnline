@@ -1,0 +1,7 @@
+Server
+user cp
+password cpworld
+
+mysql
+user root
+pass H3ll0W0rld!!

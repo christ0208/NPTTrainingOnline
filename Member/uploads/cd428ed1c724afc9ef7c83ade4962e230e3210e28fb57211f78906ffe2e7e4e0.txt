@@ -1,0 +1,12 @@
+PHPGrid CVE
+CVE-2017-10665 (http://futureweb.at/security/CVE-2017-10665/), baca ini sebelum tgl 04/04/2020
+
+ADODB
+CVE-2016-7405 (https://github.com/ADOdb/ADOdb/issues/226)
+CVE-2016-4855 (https://github.com/ADOdb/ADOdb/issues/274)
+
+PHPExcel
+CVE-2014-2054
+
+HTML2PDF
+CVE-2018-4998 [tapi pengaruhnya ke user] (https://www.zerodayinitiative.com/advisories/ZDI-18-530/)
